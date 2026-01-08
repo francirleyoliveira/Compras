@@ -1,3 +1,117 @@
+# ===================================
+# AMBIENTE VIRTUAL PYTHON
+# ===================================
 venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# ===================================
+# ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS
+# ===================================
 .env
 config.ini
+*.conf
+
+# ===================================
+# ARQUIVOS DE LOGS
+# ===================================
+*.log
+logs/
+app.log
+
+# ===================================
+# CACHE DO PYTHON
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===================================
+# CACHE DO STREAMLIT
+# ===================================
+.streamlit/
+
+# ===================================
+# ARQUIVOS DO JUPYTER NOTEBOOK
+# ===================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===================================
+# ARQUIVOS TEMPORÁRIOS
+# ===================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===================================
+# BANCOS DE DADOS LOCAIS
+# ===================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===================================
+# DIRETÓRIOS DE BUILD/DIST
+# ===================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===================================
+# ARQUIVOS GERADOS
+# ===================================
+*.xlsx
+*.xls
+*.csv
+relatorio_*.xlsx
+
+# ===================================
+# IDEs E EDITORES
+# ===================================
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# ===================================
+# IMAGENS LOCAIS (NÃO COMMITAR)
+# ===================================
+fotos_produtos/
+imagens/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# ===================================
+# ARQUIVOS DE TESTE
+# ===================================
+test_*.py
+temp_*.py
+
+# ===================================
+# SISTEMA OPERACIONAL
+# ===================================
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
